@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/************************ App.js ********************/
+.App {
+  text-align: center;
+  background: rgb(212, 212, 212);
+}
+
+/************************ NavBar ********************/
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/********************* Search Menu ******************/
+.SearchSecion {
+  height: 450px;
+  background-image: url(assets/images/pizza.jpg);
+  background-size: cover;
+  filter: contrast(85%);
+  border-bottom: 1px solid black;
+}
+.SearchBox {
+  width: 450px;
+  height: 300px;
+  background: rgb(224, 199, 199, 0.80);
+  border-radius: 12px;
+  filter: brightness(120%);
+}
+.SearchBox .nameinput {
+  width: 330px;
+  border-radius: 10px;
+}
+
+.SearchBox input {
+
+  width: 80px;
+  border-radius: 10px;
+}
+.SearchBox button {
+  background: rgb(255, 187, 0);
+  border-radius: 10px;
+}
+
+/********* **** HEAD ***** *****/
+.selectNumberOfRecipes {
+  width: 60px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+
+/******************** HomePage **********************/
+
+
+.container {
+  text-align: left;
+}
+
+.titleSecion {
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0;
+} 
+
+.subContainer { 
+  padding-top: 40px;
+  padding-left: 4%;
+}
+
+/******************** Card.js ***********************/
+.recipesCard {
+  flex-basis: 32%;
+  border-radius: 5px ;
+  height: 500px;
+}
+.CardImage {
+  height: 250px;
+  border-radius: 8px 8px 0 0;
+}
+.SeeMore {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  margin-top: -5px;
+}
+.CardDescription {
+  height: 200px;
+}
+.Description{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 250px;
+}
+
+
+
+/******************** HomePage **********************/
+.selectNumberOfRecipes {
+  width: 60px;
+  height: 32px;
+  border-radius: 5px;
+}
+
+.container {
+  text-align: left;
+}
+
+.titleSecion {
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0;
+} 
+
+.subContainer { 
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 4%;
+}
+
+
+
+/****************** Advance Search Menu *************/
+.advance {
+  background-color: rgb(213, 206, 206);
+  padding: 50px;
+}
+.AdvSearchBox {
+  width: 450px;
+  background: rgb(234, 231, 231);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+
+}
+.AdvSearchBox input {
+  margin: 10px 25px;
+  width: 350px;
+  height: 50px;
+  border:none;
+  border-radius: 5px;
+}
+.AdvSearchBox .NumberRecipes input {
+  width: 80px;
+  border-radius: 10px;
+}
+.AdvSearchBox button{
+  width: 200px;
+  background: rgb(250, 208, 0);
+  border-radius: 4px;
+}
+.NSA {
+  width: 50px;
+}
+
+
+/******************* AboutPage **********************/
+.Infomation{
+  width: 100%;
+}
+.RefrigeratorIMG {
+  height: 550px;
+  left: 0;
+}
+.imageRowSecion {
+  width: 150px;
+  height: 600px;
+  padding-left: 30px;
+}
+.rowImg {
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  border-style: dotted;
+  border-color: red;
+  border-width: 5px;
+  border-radius: 70px; 
+}
+
+.SiteDiscribtion {
+  width: 550px;
+}
+.imgCard {
+  width: 300px;
+  height: 250px;
+}
+.Salad{
+  width : 100%;
+  height: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.imgCard button {
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+
+
+/********************* LogIn Page *******************/
+.LoginPage {
+  background-color:rgb(182, 177, 180);
+  padding: 50px;
+}
+.LoginSecion {
+  width: 920px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.pastaIMG {
+  width: 500px;
+  height: 500px;
+  margin-right: -5px;
+  border-radius: 0 15px 15px 0;
+}
+
+.loginbtn {
+  border-radius: 7px;
+}
+
+.OS {
+  text-decoration: none;
+}
+
+.SM button,a {
+  border-radius: 50px;
+}
+
+
+/********************* Signup Page ******************/
+.SignUpPage {
+  background-color:rgb(182, 177, 180);
+  padding: 50px;
+}
+
+.SignupSecion {
+  width: 1100px;
+  height: 750px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 3px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.SUI {
+  width: 100%;
+  height: 100%;
+}
